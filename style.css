@@ -9,7 +9,26 @@ body {
 }
 
 nav {
-    background-color: #d9a71e;
-    color: rgb(255,0,0);
-    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(200, 255, 0, 0.521);
+}
+
+aside {
+    background-color: #ebb521;
+}
+
+nav, aside {
+    color: black;
+}
+
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: white;
+}
+
+section {
+    border: 5px solid black;
 }
