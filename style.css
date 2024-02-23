@@ -10,10 +10,16 @@ body {
 
 nav {
     background-color: rgba(200, 255, 0, 0.521);
+    text-align: center;
+}
+
+nav li {
+    list-style-type: none;
 }
 
 aside {
     background-color: #ebb521;
+    width: 50%;
 }
 
 nav, aside {
@@ -32,3 +38,58 @@ a:hover {
 section {
     border: 5px solid black;
 }
+
+h1 {
+    box-shadow: 5px 5px 5px 5px;
+    font-size:3em;
+    text-shadow: 2px 2px orange;
+}
+
+p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+span {
+    font-weight: bold;
+}
+
+main {
+    background-color: yellow;
+    width: 50%;
+    margin: auto;
+}
+
+nav h3 {
+    color: purple;
+}
+
+aside h3 {
+    color: blue;
+}
+
+#intro {
+    text-shadow: 2px 2px orange;
+    color: lightblue;
+}
+
+#cool {
+    text-shadow: 2px 2px peru;
+    color: lightslategray;
+}
+
+#sum {
+    text-shadow: 2px 2px red;
+    color: salmon;
+}
+
+#gnome {
+    height: 100px;
+    width: 100px;
+}
+
+#super {
+    border: 10px dotted blue;
+    display: flex;
+}
+
